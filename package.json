@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tdf-labs/the-data-faucet-sdk": "^0.0.4",
     "@textea/json-viewer": "^2.11.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",

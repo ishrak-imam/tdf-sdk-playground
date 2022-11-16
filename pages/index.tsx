@@ -1,25 +1,25 @@
-import {useEffect, useState} from 'react'
+// import {useEffect, useState} from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {create} from '@tdf-labs/the-data-faucet-sdk'
 import { JsonViewer } from '@textea/json-viewer'
 
-const dataFaucet = create({url: 'https://graph.tdf-labs.io/latest/graphql'});
+// const dataFaucet = create({url: 'https://graph.tdf-labs.io/latest/graphql'});
 
 export default function Home() {
-  const [data, setData] = useState<any>();
+  // const [data, setData] = useState<any>();
 
-  useEffect(() => {
-    async function queryData() {
-      setData(null);
-      const data = await dataFaucet.query.chain.polkadot.balanceTransfers({
-        address: "13GgtddFytMGMZApWQbr8y45j1kGM4LAsLEtX1zx4sgmKhZv",
-      });
-      setData(data);
-    }
+  // useEffect(() => {
+  //   async function queryData() {
+  //     setData(null);
+  //     const data = await dataFaucet.query.chain.polkadot.balanceTransfers({
+  //       address: "13GgtddFytMGMZApWQbr8y45j1kGM4LAsLEtX1zx4sgmKhZv",
+  //     });
+  //     setData(data);
+  //   }
 
-    queryData().catch((error) => {console.log('Query error :::: ', error)})
-  }, [])
+  //   queryData().catch((error) => {console.log('Query error :::: ', error)})
+  // }, [])
 
   return (
     <div className={styles.container}>
@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {Boolean(data) ? <JsonViewer rootName='data' enableClipboard={false} value={data}/> : null}
+        {/* {Boolean(data) ? <JsonViewer rootName='data' enableClipboard={false} value={data}/> : null} */}
       </main>
 
       {/* <footer className={styles.footer}>
