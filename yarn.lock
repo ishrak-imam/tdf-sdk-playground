@@ -1177,10 +1177,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tdf-labs/the-data-faucet-sdk@^0.0.4":
-  version "0.0.4"
-  resolved "https://npm.pkg.github.com/download/@tdf-labs/the-data-faucet-sdk/0.0.4/984c784cc47c67cc2762eca851f37833e24ec967#984c784cc47c67cc2762eca851f37833e24ec967"
-  integrity sha512-2IAVE8kgFSh6t2eRK4iQlxp70+4GVJpVq/jloJ+d9YwzajQk2+K+xbJ795e3F3eCFG8FBOWfkIWNdS+vNBZMew==
+"@tdf-labs/the-data-faucet-sdk@^0.0.7":
+  version "0.0.7"
+  resolved "https://npm.pkg.github.com/download/@tdf-labs/the-data-faucet-sdk/0.0.7/1a03bde7817484686a10134b7ba8b4f7366f634c#1a03bde7817484686a10134b7ba8b4f7366f634c"
+  integrity sha512-lqxIyaKrwoQv6iK8qz4ho70HUes0WiDeN0pR9r7L15VzCEUvET0UZ9uW5+HoT4WiGZvre5zhbwISwkrnLmdeJQ==
   dependencies:
     axios "^1.1.3"
     graphql "^16.6.0"

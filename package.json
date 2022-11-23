@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.10",
-    "@tdf-labs/the-data-faucet-sdk": "^0.0.4",
+    "@tdf-labs/the-data-faucet-sdk": "^0.0.7",
     "@textea/json-viewer": "^2.11.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
